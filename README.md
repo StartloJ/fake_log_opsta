@@ -27,12 +27,13 @@ optional arguments:
 * levelname => %(levelname)s : is python logging generate from log level to flush.
 
 ## Default values for some parameter
+<pre>
 -a , --all_default : True
 -d , --destfile    : "./app.log"
 -f , --filter      : "\s-\s.*"
 --logformat        : "%(asctime)s [%(threadName)s] %(levelname)s "
 --timeformat       : "%Y-%m-%d %H:%M:%S "
-
+</pre>
 ## Sample command
 command to gen log
 
